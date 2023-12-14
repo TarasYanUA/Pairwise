@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1.144" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Idea Projects\Pairwise\target\test-classes;C:\Idea Projects\Pairwise\target\classes;C:\Users\Тарас\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Тарас\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Тарас\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Тарас\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Тарас\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Тарас\AppData\Local\Temp\surefire2463857321304038929\surefirebooter-20231214150842834_3.jar C:\Users\Тарас\AppData\Local\Temp\surefire2463857321304038929 2023-12-14T15-08-42_010-jvmRun1 surefire-20231214150842834_1tmp surefire_0-20231214150842834_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Idea Projects\Pairwise\target\test-classes;C:\Idea Projects\Pairwise\target\classes;C:\Users\Тарас\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Тарас\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\Тарас\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Тарас\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Тарас\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Тарас"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Idea Projects\Pairwise"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Тарас\AppData\Local\Temp\surefire2463857321304038929\surefirebooter-20231214150842834_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="Тарас"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Тарас\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\1BB3~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Idea Projects\Pairwise"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\jdk-18.0.2.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\Тарас\scoop\apps\allure\current\bin;%JAVA_HOME%\bin;C:\jdk-18.0.2.1\bin;%MAVEN_HOME%\bin;C:\AndroidStudio\;C:\Program Files\Git\cmd;C:\apache-maven-3.9.5\bin;C:\Users\Тарас\scoop\shims;C:\Users\Тарас\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testMatched[{key1=8, key0=DVD}, {key1=8, key0=DVD}](1)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.014">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testMatched[{key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=CD}](2)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testMatched[{key1=4, key2=ISO, key0=null, key3=null, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4=null}](3)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testMatched[{key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4=null}](4)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testMatched[{key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=ISO, key0=DVD, key3=Start, key4=4.7Gb}](5)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testMatched[{key1=null, key2=ISO, key0=CD, key3=Start, key4=null}, {key1=4, key2=ISO, key0=null, key3=null, key4=null}](6)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testMatched[{key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}, {key1=8, key2=null, key0=null, key3=No, key4=700Mb}](7)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testMatched[{a=CD, c=UDF}, {a=CD, b=8, c=UDF}](8)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testNotMatched[{key1=4, key0=DVD}, {key1=8, key0=DVD}](1)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.001"/>
+  <testcase name="testNotMatched[{key1=4, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD}](2)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.001"/>
+  <testcase name="testNotMatched[{key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD}](3)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.001"/>
+  <testcase name="testNotMatched[{a=CD, c=UDF}, {a=CD, b=8, c=ISO}](4)" classname="ua.edu.lp.asu.pairwise.CaseTest" time="0.0"/>
+  <testcase name="testGeneratePairs[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a2, B=b3}, {A=a3, B=b1}, {A=a3, B=b2}, {A=a3, B=b3}, {A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a2, C=c1}, {A=a2, C=c2}, {A=a2, C=c3}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}]](1)" classname="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" time="0.03"/>
+  <testcase name="testGeneratePairs[[A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a1, C=c4}, {A=a2, C=c1}, {A=a2, C=c2}, {A=a2, C=c3}, {A=a2, C=c4}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {A=a3, C=c4}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b1, C=c4}, {B=b2, C=c1}, {B=b2, C=c2}, {B=b2, C=c3}, {B=b2, C=c4}]](2)" classname="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" time="0.001"/>
+  <testcase name="testHorizontalGrowth[[{A=a1, B=b1, C=c1}], [{A=a1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}]](1)" classname="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" time="0.021"/>
+  <testcase name="testHorizontalGrowth[[{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3}, {A=a2, B=b3, C=c3}, {A=a3, B=b1, C=c2}, {A=a3, B=b2, C=c3}, {A=a3, B=b3, C=c1}], [{A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a2, C=c1}, {A=a2, C=c3}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b2, C=c1}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}], [{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3}, {A=a2, B=b3, C=c3}, {A=a3, B=b1, C=c2}, {A=a3, B=b2, C=c3}, {A=a3, B=b3, C=c1}]](2)" classname="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" time="0.004"/>
+  <testcase name="testVerticalGrowth[[{A=a1, B=b1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}]](1)" classname="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" time="0.002"/>
+  <testcase name="testVerticalGrowth[[{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2}, {A=a2, C=c3, B=b2}, {A=a3, C=c1, B=b3}, {A=a3, C=c2, B=b3}, {A=a3, C=c3, B=b3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b2, C=c1}, {B=b2, C=c2}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}], [{A=a1, B=b1, C=c1}, {A=a1, B=b1, C=c2}, {A=a1, B=b1, C=c3}, {A=a2, B=b2, C=c1}, {A=a2, B=b2, C=c2}, {A=a2, B=b2, C=c3}, {A=a3, B=b3, C=c1}, {A=a3, B=b3, C=c2}, {A=a3, B=b3, C=c3}]](2)" classname="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" time="0.002"/>
+  <testcase name="testBuild[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]](1)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.014"/>
+  <testcase name="testBuild[[Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]]](2)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.015"/>
+  <testcase name="testBuild[[Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]]](3)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.015"/>
+  <testcase name="testBuild[[Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]]](4)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.036"/>
+  <testcase name="testOrder[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]](1)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.005"/>
+  <testcase name="testOrder[[Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]]](2)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.005"/>
+  <testcase name="testOrder[[Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]]](3)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.006"/>
+  <testcase name="testOrder[[Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]]](4)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.019"/>
+  <testcase name="testVerify[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]](1)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.008"/>
+  <testcase name="testVerify[[Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]]](2)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.006"/>
+  <testcase name="testVerify[[Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]]](3)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.006"/>
+  <testcase name="testVerify[[Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]]](4)" classname="ua.edu.lp.asu.pairwise.PairwiseTest" time="0.024"/>
+</testsuite>

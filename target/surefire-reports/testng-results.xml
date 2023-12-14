@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-14T15:08:44 EET" name="Surefire suite" finished-at="2023-12-14T15:08:44 EET" duration-ms="350">
+    <groups>
+    </groups>
+    <test started-at="2023-12-14T15:08:44 EET" name="Surefire test" finished-at="2023-12-14T15:08:44 EET" duration-ms="350">
+      <class name="ua.edu.lp.asu.pairwise.CaseTest">
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=8, key0=DVD}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=8, key0=DVD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=null, key2=UDF, key0=CD}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=8, key2=UDF, key0=CD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=4, key2=ISO, key0=null, key3=null, key4=null}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=4, key2=null, key0=null, key3=Start, key4=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=null, key2=ISO, key0=null, key3=Start, key4=null}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=4, key2=null, key0=null, key3=Start, key4=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=null, key2=ISO, key0=null, key3=Start, key4=null}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=4, key2=ISO, key0=DVD, key3=Start, key4=4.7Gb}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=null, key2=ISO, key0=CD, key3=Start, key4=null}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=4, key2=ISO, key0=null, key3=null, key4=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=8, key2=null, key0=null, key3=No, key4=700Mb}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testMatched" data-provider="samplesOfMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{a=CD, c=UDF}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{a=CD, b=8, c=UDF}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMatched -->
+        <test-method signature="testNotMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testNotMatched" data-provider="samplesOfNotMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=4, key0=DVD}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=8, key0=DVD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMatched -->
+        <test-method signature="testNotMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testNotMatched" data-provider="samplesOfNotMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=4, key2=UDF, key0=CD}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=8, key2=UDF, key0=DVD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMatched -->
+        <test-method signature="testNotMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testNotMatched" data-provider="samplesOfNotMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{key1=null, key2=UDF, key0=CD}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{key1=8, key2=UDF, key0=DVD}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMatched -->
+        <test-method signature="testNotMatched(ua.edu.lp.asu.pairwise.Case,ua.edu.lp.asu.pairwise.Case)[pri:0, instance:ua.edu.lp.asu.pairwise.CaseTest@358c99f5]" started-at="2023-12-14T15:08:44 EET" name="testNotMatched" data-provider="samplesOfNotMatchedCases" finished-at="2023-12-14T15:08:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{a=CD, c=UDF}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{a=CD, b=8, c=ISO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNotMatched -->
+      </class> <!-- ua.edu.lp.asu.pairwise.CaseTest -->
+      <class name="ua.edu.lp.asu.pairwise.PairwiseTest">
+        <test-method signature="testBuild(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testBuild" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testBuild" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testBuild" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testBuild(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testBuild" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="36" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBuild -->
+        <test-method signature="testOrder(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testOrder" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrder -->
+        <test-method signature="testOrder(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testOrder" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrder -->
+        <test-method signature="testOrder(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testOrder" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrder -->
+        <test-method signature="testOrder(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testOrder" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrder -->
+        <test-method signature="testVerify(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testVerify" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerify -->
+        <test-method signature="testVerify(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testVerify" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerify -->
+        <test-method signature="testVerify(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testVerify" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerify -->
+        <test-method signature="testVerify(java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.PairwiseTest@55a561cf]" started-at="2023-12-14T15:08:44 EET" name="testVerify" data-provider="samplesParameters" finished-at="2023-12-14T15:08:44 EET" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerify -->
+      </class> <!-- ua.edu.lp.asu.pairwise.PairwiseTest -->
+      <class name="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest">
+        <test-method signature="testGeneratePairs(java.util.List,java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest@3d299e3]" started-at="2023-12-14T15:08:44 EET" name="testGeneratePairs" data-provider="samplesGeneratePairs" finished-at="2023-12-14T15:08:44 EET" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a2, B=b3}, {A=a3, B=b1}, {A=a3, B=b2}, {A=a3, B=b3}, {A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a2, C=c1}, {A=a2, C=c2}, {A=a2, C=c3}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneratePairs -->
+        <test-method signature="testGeneratePairs(java.util.List,java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest@3d299e3]" started-at="2023-12-14T15:08:44 EET" name="testGeneratePairs" data-provider="samplesGeneratePairs" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a1, C=c4}, {A=a2, C=c1}, {A=a2, C=c2}, {A=a2, C=c3}, {A=a2, C=c4}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {A=a3, C=c4}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b1, C=c4}, {B=b2, C=c1}, {B=b2, C=c2}, {B=b2, C=c3}, {B=b2, C=c4}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGeneratePairs -->
+        <test-method signature="testHorizontalGrowth(java.util.List,java.util.List,java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest@3d299e3]" started-at="2023-12-14T15:08:44 EET" name="testHorizontalGrowth" data-provider="samplesHorizontalGrowth" finished-at="2023-12-14T15:08:44 EET" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c1}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{A=a1, C=c1}, {B=b1, C=c1}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c1}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHorizontalGrowth -->
+        <test-method signature="testHorizontalGrowth(java.util.List,java.util.List,java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest@3d299e3]" started-at="2023-12-14T15:08:44 EET" name="testHorizontalGrowth" data-provider="samplesHorizontalGrowth" finished-at="2023-12-14T15:08:44 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3}, {A=a2, B=b3, C=c3}, {A=a3, B=b1, C=c2}, {A=a3, B=b2, C=c3}, {A=a3, B=b3, C=c1}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a2, C=c1}, {A=a2, C=c3}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b2, C=c1}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}]]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3}, {A=a2, B=b3, C=c3}, {A=a3, B=b1, C=c2}, {A=a3, B=b2, C=c3}, {A=a3, B=b3, C=c1}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHorizontalGrowth -->
+        <test-method signature="testVerticalGrowth(java.util.List,java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest@3d299e3]" started-at="2023-12-14T15:08:44 EET" name="testVerticalGrowth" data-provider="samplesVerticalGrowth" finished-at="2023-12-14T15:08:44 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c1}, {B=b1, C=c1}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c1}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerticalGrowth -->
+        <test-method signature="testVerticalGrowth(java.util.List,java.util.List)[pri:0, instance:ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest@3d299e3]" started-at="2023-12-14T15:08:44 EET" name="testVerticalGrowth" data-provider="samplesVerticalGrowth" finished-at="2023-12-14T15:08:44 EET" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2}, {A=a2, C=c3, B=b2}, {A=a3, C=c1, B=b3}, {A=a3, C=c2, B=b3}, {A=a3, C=c3, B=b3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b2, C=c1}, {B=b2, C=c2}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[{A=a1, B=b1, C=c1}, {A=a1, B=b1, C=c2}, {A=a1, B=b1, C=c3}, {A=a2, B=b2, C=c1}, {A=a2, B=b2, C=c2}, {A=a2, B=b2, C=c3}, {A=a3, B=b3, C=c1}, {A=a3, B=b3, C=c2}, {A=a3, B=b3, C=c3}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerticalGrowth -->
+      </class> <!-- ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
