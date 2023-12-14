@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-passed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testBuild([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)">testBuild([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testBuild([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)">testBuild([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testBuild([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)">testBuild([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testBuild([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])">testBuild([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" class="method navigator-link" hash-for-method="testGeneratePairs([A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a...)">testGeneratePairs([A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" class="method navigator-link" hash-for-method="testGeneratePairs([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a...)">testGeneratePairs([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" class="method navigator-link" hash-for-method="testHorizontalGrowth([{A=a1, B=b1, C=c1}], [{A=a1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])">testHorizontalGrowth([{A=a1, B=b1, C=c1}], [{A=a1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" class="method navigator-link" hash-for-method="testHorizontalGrowth([{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3},...)">testHorizontalGrowth([{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3},...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}, {key1=8, key2=null, key0=null, key3=No, key4=700Mb...)">testMatched({key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}, {key1=8, key2=null, key0=null, key3=No, key4=700Mb...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=null, key2=ISO, key0=CD, key3=Start, key4=null}, {key1=4, key2=ISO, key0=null, key3=null, key4...)">testMatched({key1=null, key2=ISO, key0=CD, key3=Start, key4=null}, {key1=4, key2=ISO, key0=null, key3=null, key4...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=CD})">testMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=CD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=ISO, key0=DVD, key3=Start, ke...)">testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=ISO, key0=DVD, key3=Start, ke...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=4, key2=ISO, key0=null, key3=null, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4...)">testMatched({key1=4, key2=ISO, key0=null, key3=null, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({a=CD, c=UDF}, {a=CD, b=8, c=UDF})">testMatched({a=CD, c=UDF}, {a=CD, b=8, c=UDF})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=null, key0=null, key3=Start, ...)">testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=null, key0=null, key3=Start, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testMatched({key1=8, key0=DVD}, {key1=8, key0=DVD})">testMatched({key1=8, key0=DVD}, {key1=8, key0=DVD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testNotMatched({key1=4, key0=DVD}, {key1=8, key0=DVD})">testNotMatched({key1=4, key0=DVD}, {key1=8, key0=DVD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testNotMatched({key1=4, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})">testNotMatched({key1=4, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testNotMatched({a=CD, c=UDF}, {a=CD, b=8, c=ISO})">testNotMatched({a=CD, c=UDF}, {a=CD, b=8, c=ISO})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.CaseTest" class="method navigator-link" hash-for-method="testNotMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})">testNotMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testOrder([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])">testOrder([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testOrder([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)">testOrder([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testOrder([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)">testOrder([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testOrder([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)">testOrder([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testVerify([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)">testVerify([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testVerify([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)">testVerify([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testVerify([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])">testVerify([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.PairwiseTest" class="method navigator-link" hash-for-method="testVerify([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)">testVerify([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" class="method navigator-link" hash-for-method="testVerticalGrowth([{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2},...)">testVerticalGrowth([{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2},...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest" class="method navigator-link" hash-for-method="testVerticalGrowth([{A=a1, B=b1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])">testVerticalGrowth([{A=a1, B=b1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeneratePairs([A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a...)">
+                  </a> <!-- testGeneratePairs([A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a...) -->
+                  <span class="method-name">testGeneratePairs</span>
+                  <span class="parameters">([A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]],[{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a1, C=c4}, {A=a2, C=c1}, {A=a2, C=c2}, {A=a2, C=c3}, {A=a2, C=c4}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {A=a3, C=c4}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b1, C=c4}, {B=b2, C=c1}, {B=b2, C=c2}, {B=b2, C=c3}, {B=b2, C=c4}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGeneratePairs([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a...)">
+                  </a> <!-- testGeneratePairs([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a...) -->
+                  <span class="method-name">testGeneratePairs</span>
+                  <span class="parameters">([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]],[{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a2, B=b1}, {A=a2, B=b2}, {A=a2, B=b3}, {A=a3, B=b1}, {A=a3, B=b2}, {A=a3, B=b3}, {A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a2, C=c1}, {A=a2, C=c2}, {A=a2, C=c3}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHorizontalGrowth([{A=a1, B=b1, C=c1}], [{A=a1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])">
+                  </a> <!-- testHorizontalGrowth([{A=a1, B=b1, C=c1}], [{A=a1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}]) -->
+                  <span class="method-name">testHorizontalGrowth</span>
+                  <span class="parameters">([{A=a1, B=b1, C=c1}],[{A=a1, C=c1}, {B=b1, C=c1}],[{A=a1, B=b1, C=c1}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHorizontalGrowth([{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3},...)">
+                  </a> <!-- testHorizontalGrowth([{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3},...) -->
+                  <span class="method-name">testHorizontalGrowth</span>
+                  <span class="parameters">([{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3}, {A=a2, B=b3, C=c3}, {A=a3, B=b1, C=c2}, {A=a3, B=b2, C=c3}, {A=a3, B=b3, C=c1}],[{A=a1, C=c1}, {A=a1, C=c2}, {A=a1, C=c3}, {A=a2, C=c1}, {A=a2, C=c3}, {A=a3, C=c1}, {A=a3, C=c2}, {A=a3, C=c3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b2, C=c1}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}],[{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3}, {A=a2, B=b3, C=c3}, {A=a3, B=b1, C=c2}, {A=a3, B=b2, C=c3}, {A=a3, B=b3, C=c1}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerticalGrowth([{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2},...)">
+                  </a> <!-- testVerticalGrowth([{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2},...) -->
+                  <span class="method-name">testVerticalGrowth</span>
+                  <span class="parameters">([{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2}, {A=a2, C=c3, B=b2}, {A=a3, C=c1, B=b3}, {A=a3, C=c2, B=b3}, {A=a3, C=c3, B=b3}, {B=b1, C=c1}, {B=b1, C=c2}, {B=b1, C=c3}, {B=b2, C=c1}, {B=b2, C=c2}, {B=b2, C=c3}, {B=b3, C=c1}, {B=b3, C=c2}, {B=b3, C=c3}],[{A=a1, B=b1, C=c1}, {A=a1, B=b1, C=c2}, {A=a1, B=b1, C=c3}, {A=a2, B=b2, C=c1}, {A=a2, B=b2, C=c2}, {A=a2, B=b2, C=c3}, {A=a3, B=b3, C=c1}, {A=a3, B=b3, C=c2}, {A=a3, B=b3, C=c3}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerticalGrowth([{A=a1, B=b1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])">
+                  </a> <!-- testVerticalGrowth([{A=a1, B=b1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}]) -->
+                  <span class="method-name">testVerticalGrowth</span>
+                  <span class="parameters">([{A=a1, B=b1, C=c1}, {B=b1, C=c1}],[{A=a1, B=b1, C=c1}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ua.edu.lp.asu.pairwise.PairwiseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuild([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)">
+                  </a> <!-- testBuild([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...) -->
+                  <span class="method-name">testBuild</span>
+                  <span class="parameters">([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuild([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)">
+                  </a> <!-- testBuild([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...) -->
+                  <span class="method-name">testBuild</span>
+                  <span class="parameters">([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuild([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)">
+                  </a> <!-- testBuild([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...) -->
+                  <span class="method-name">testBuild</span>
+                  <span class="parameters">([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuild([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])">
+                  </a> <!-- testBuild([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]) -->
+                  <span class="method-name">testBuild</span>
+                  <span class="parameters">([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrder([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])">
+                  </a> <!-- testOrder([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]) -->
+                  <span class="method-name">testOrder</span>
+                  <span class="parameters">([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrder([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)">
+                  </a> <!-- testOrder([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...) -->
+                  <span class="method-name">testOrder</span>
+                  <span class="parameters">([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrder([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)">
+                  </a> <!-- testOrder([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...) -->
+                  <span class="method-name">testOrder</span>
+                  <span class="parameters">([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOrder([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)">
+                  </a> <!-- testOrder([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...) -->
+                  <span class="method-name">testOrder</span>
+                  <span class="parameters">([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerify([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)">
+                  </a> <!-- testVerify([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...) -->
+                  <span class="method-name">testVerify</span>
+                  <span class="parameters">([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [Phone, Movie, Computer, Blender, Microwave, Book, Sweater], Click: [Link, Image, Description]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerify([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)">
+                  </a> <!-- testVerify([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...) -->
+                  <span class="method-name">testVerify</span>
+                  <span class="parameters">([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10000, 40000], Format method: [quick, slow], File system: [FAT, FAT32, NTFS], Cluster size: [512, 1024, 2048, 4096, 8192, 16384, 32768, 65536], Compression: [true, false]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerify([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])">
+                  </a> <!-- testVerify([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]]) -->
+                  <span class="method-name">testVerify</span>
+                  <span class="parameters">([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVerify([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)">
+                  </a> <!-- testVerify([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...) -->
+                  <span class="method-name">testVerify</span>
+                  <span class="parameters">([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660], Multisession: [No, Start, Continue], Capacity: [100Mb, 700Mb, 4.7Gb]])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ua.edu.lp.asu.pairwise.CaseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}, {key1=8, key2=null, key0=null, key3=No, key4=700Mb...)">
+                  </a> <!-- testMatched({key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}, {key1=8, key2=null, key0=null, key3=No, key4=700Mb...) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb},{key1=8, key2=null, key0=null, key3=No, key4=700Mb})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=null, key2=ISO, key0=CD, key3=Start, key4=null}, {key1=4, key2=ISO, key0=null, key3=null, key4...)">
+                  </a> <!-- testMatched({key1=null, key2=ISO, key0=CD, key3=Start, key4=null}, {key1=4, key2=ISO, key0=null, key3=null, key4...) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=null, key2=ISO, key0=CD, key3=Start, key4=null},{key1=4, key2=ISO, key0=null, key3=null, key4=null})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=CD})">
+                  </a> <!-- testMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=CD}) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=null, key2=UDF, key0=CD},{key1=8, key2=UDF, key0=CD})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=ISO, key0=DVD, key3=Start, ke...)">
+                  </a> <!-- testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=ISO, key0=DVD, key3=Start, ke...) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=null, key2=ISO, key0=null, key3=Start, key4=null},{key1=4, key2=ISO, key0=DVD, key3=Start, key4=4.7Gb})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=4, key2=ISO, key0=null, key3=null, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4...)">
+                  </a> <!-- testMatched({key1=4, key2=ISO, key0=null, key3=null, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4...) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=4, key2=ISO, key0=null, key3=null, key4=null},{key1=4, key2=null, key0=null, key3=Start, key4=null})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({a=CD, c=UDF}, {a=CD, b=8, c=UDF})">
+                  </a> <!-- testMatched({a=CD, c=UDF}, {a=CD, b=8, c=UDF}) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({a=CD, c=UDF},{a=CD, b=8, c=UDF})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=null, key0=null, key3=Start, ...)">
+                  </a> <!-- testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=null, key0=null, key3=Start, ...) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=null, key2=ISO, key0=null, key3=Start, key4=null},{key1=4, key2=null, key0=null, key3=Start, key4=null})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMatched({key1=8, key0=DVD}, {key1=8, key0=DVD})">
+                  </a> <!-- testMatched({key1=8, key0=DVD}, {key1=8, key0=DVD}) -->
+                  <span class="method-name">testMatched</span>
+                  <span class="parameters">({key1=8, key0=DVD},{key1=8, key0=DVD})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMatched({key1=4, key0=DVD}, {key1=8, key0=DVD})">
+                  </a> <!-- testNotMatched({key1=4, key0=DVD}, {key1=8, key0=DVD}) -->
+                  <span class="method-name">testNotMatched</span>
+                  <span class="parameters">({key1=4, key0=DVD},{key1=8, key0=DVD})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMatched({key1=4, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})">
+                  </a> <!-- testNotMatched({key1=4, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD}) -->
+                  <span class="method-name">testNotMatched</span>
+                  <span class="parameters">({key1=4, key2=UDF, key0=CD},{key1=8, key2=UDF, key0=DVD})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMatched({a=CD, c=UDF}, {a=CD, b=8, c=ISO})">
+                  </a> <!-- testNotMatched({a=CD, c=UDF}, {a=CD, b=8, c=ISO}) -->
+                  <span class="method-name">testNotMatched</span>
+                  <span class="parameters">({a=CD, c=UDF},{a=CD, b=8, c=ISO})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNotMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})">
+                  </a> <!-- testNotMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD}) -->
+                  <span class="method-name">testNotMatched</span>
+                  <span class="parameters">({key1=null, key2=UDF, key0=CD},{key1=8, key2=UDF, key0=DVD})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ua.edu.lp.asu.pairwise.CaseTest&quot;/&gt;
+      &lt;class name=&quot;ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest&quot;/&gt;
+      &lt;class name=&quot;ua.edu.lp.asu.pairwise.PairwiseTest&quot;/&gt;
+      &lt;class name=&quot;ua.edu.lp.asu.pairwise.TestHelper&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testBuild')
+data.setCell(0, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(0, 3, 36);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testGeneratePairs')
+data.setCell(1, 2, 'ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest')
+data.setCell(1, 3, 30);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testVerify')
+data.setCell(2, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(2, 3, 24);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testHorizontalGrowth')
+data.setCell(3, 2, 'ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest')
+data.setCell(3, 3, 22);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testOrder')
+data.setCell(4, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(4, 3, 19);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testMatched')
+data.setCell(5, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(5, 3, 16);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testBuild')
+data.setCell(6, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(6, 3, 15);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testBuild')
+data.setCell(7, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(7, 3, 14);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testBuild')
+data.setCell(8, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(8, 3, 14);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testVerify')
+data.setCell(9, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(9, 3, 8);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testVerify')
+data.setCell(10, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(10, 3, 6);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testVerify')
+data.setCell(11, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(11, 3, 5);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testOrder')
+data.setCell(12, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(12, 3, 5);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testOrder')
+data.setCell(13, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(13, 3, 5);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testOrder')
+data.setCell(14, 2, 'ua.edu.lp.asu.pairwise.PairwiseTest')
+data.setCell(14, 3, 4);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testVerticalGrowth')
+data.setCell(15, 2, 'ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testHorizontalGrowth')
+data.setCell(16, 2, 'ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testMatched')
+data.setCell(17, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testGeneratePairs')
+data.setCell(18, 2, 'ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testMatched')
+data.setCell(19, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testMatched')
+data.setCell(20, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testMatched')
+data.setCell(21, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testMatched')
+data.setCell(22, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testVerticalGrowth')
+data.setCell(23, 2, 'ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testMatched')
+data.setCell(24, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testMatched')
+data.setCell(25, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testNotMatched')
+data.setCell(26, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testNotMatched')
+data.setCell(27, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testNotMatched')
+data.setCell(28, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testNotMatched')
+data.setCell(29, 2, 'ua.edu.lp.asu.pairwise.CaseTest')
+data.setCell(29, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 237 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ua.edu.lp.asu.pairwise.CaseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=8, key0=DVD}, {key1=8, key0=DVD})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=CD})</span>
+                <span class="method-start">18 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=4, key2=ISO, key0=null, key3=null, key4=null}, {key1=4, key2=null, key0=null, key3=Start, key4...)</span>
+                <span class="method-start">19 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=null, key0=null, key3=Start, ...)</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=null, key2=ISO, key0=null, key3=Start, key4=null}, {key1=4, key2=ISO, key0=DVD, key3=Start, ke...)</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=null, key2=ISO, key0=CD, key3=Start, key4=null}, {key1=4, key2=ISO, key0=null, key3=null, key4...)</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({key1=8, key2=UDF, key0=CD, key3=No, key4=700Mb}, {key1=8, key2=null, key0=null, key3=No, key4=700Mb...)</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMatched({a=CD, c=UDF}, {a=CD, b=8, c=UDF})</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMatched({key1=4, key0=DVD}, {key1=8, key0=DVD})</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMatched({key1=4, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMatched({key1=null, key2=UDF, key0=CD}, {key1=8, key2=UDF, key0=DVD})</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testNotMatched({a=CD, c=UDF}, {a=CD, b=8, c=ISO})</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ua.edu.lp.asu.pairwise.InParameterOrderStrategyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGeneratePairs([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a1, B=b3}, {A=a...)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGeneratePairs([A: [a1, a2, a3], B: [b1, b2], C: [c1, c2, c3, c4]], [{A=a1, B=b1}, {A=a1, B=b2}, {A=a2, B=b1}, {A=a...)</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHorizontalGrowth([{A=a1, B=b1, C=c1}], [{A=a1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])</span>
+                <span class="method-start">77 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHorizontalGrowth([{A=a1, B=b1, C=c3}, {A=a1, B=b2, C=c1}, {A=a1, B=b3, C=c2}, {A=a2, B=b1, C=c1}, {A=a2, B=b2, C=c3},...)</span>
+                <span class="method-start">100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerticalGrowth([{A=a1, B=b1, C=c1}, {B=b1, C=c1}], [{A=a1, B=b1, C=c1}])</span>
+                <span class="method-start">105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerticalGrowth([{A=a1, C=c1, B=b1}, {A=a1, C=c2, B=b1}, {A=a1, C=c3, B=b1}, {A=a2, C=c1, B=b2}, {A=a2, C=c2, B=b2},...)</span>
+                <span class="method-start">107 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ua.edu.lp.asu.pairwise.PairwiseTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testBuild([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</span>
+                <span class="method-start">111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBuild([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)</span>
+                <span class="method-start">126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBuild([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)</span>
+                <span class="method-start">141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testBuild([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)</span>
+                <span class="method-start">157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrder([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</span>
+                <span class="method-start">194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrder([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)</span>
+                <span class="method-start">200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrder([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)</span>
+                <span class="method-start">205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOrder([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)</span>
+                <span class="method-start">211 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerify([A: [a1, a2, a3], B: [b1, b2, b3], C: [c1, c2, c3]])</span>
+                <span class="method-start">231 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerify([Browser: [Chrome, Firefox, Internet Explorer, Safari], Page: [Link, Image, Description], Product: [...)</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerify([Type: [CD, DVD], Recording Speed: [2, 4, 8, 16, 24, 36, 52], File System: [ISO, UDF, HFS, ISO9660],...)</span>
+                <span class="method-start">246 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testVerify([Type: [Primary, Logical, Single, Span, Stripe, Mirror, RAID-5], Size: [10, 100, 500, 1000, 5000, 10...)</span>
+                <span class="method-start">252 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
