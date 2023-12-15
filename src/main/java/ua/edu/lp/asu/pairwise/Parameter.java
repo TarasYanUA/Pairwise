@@ -2,7 +2,6 @@ package ua.edu.lp.asu.pairwise;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
